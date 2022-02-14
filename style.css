@@ -44,6 +44,17 @@ header {
   padding: 2rem 0 10rem;
   text-align: center;
 }
+
+.social{
+  display: flex;
+  justify-content: end;
+  gap: 1.5rem;
+  margin-right: 2rem;
+}
+
+.social a img{
+  width: 25px;
+}
 /* Links & Buttons ================================================= */
 
 a {
@@ -284,5 +295,9 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+  }
+
+  .social a img{
+    width: 35px;
   }
 }
